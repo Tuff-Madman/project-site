@@ -1,0 +1,15 @@
+title: "Project Site"
+description: "A Jekyll site deployed on GitHub Pages"
+url: "https://USERNAME.github.io"
+baseurl: "/project-site"
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# GitHub Pages defaults
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap 
