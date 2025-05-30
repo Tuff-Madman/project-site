@@ -1,11 +1,18 @@
-title: "Project Site"
-description: "A Jekyll site deployed on GitHub Pages"
-url: "https://Tuff-Madman.github.io"
-baseurl: "/project-site"
-theme: minima
+title: S.L.O.P. Case Files
+description: "A dark, edgy dive into AI dysfunction and digital decay."
+baseurl: ""
+url: "https://your-production-url.com"
+markdown: kramdown
+theme: jekyll-theme-minimal
+sass:
+  sass_dir: assets/css
+  style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
 
 # Build settings
-markdown: kramdown
 highlighter: rouge
 
 # GitHub Pages defaults

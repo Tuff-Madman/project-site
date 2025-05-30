@@ -1,0 +1,29 @@
+/* Custom dark cyberpunk CSS for S.L.O.P. Case Files */
+
+$primary-bg: #111;
+$primary-text: #eee;
+$accent-color: #e60073;
+$font-stack: "Courier New", Courier, monospace;
+
+body {
+  background-color: $primary-bg;
+  color: $primary-text;
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: $accent-color;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+a {
+  color: lighten($accent-color, 20%);
+  text-decoration: none;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+} 
